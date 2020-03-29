@@ -84,6 +84,10 @@ elseif strcmpi(SVM_Type,'RBF') == 1
 
 end  
 
+xlabel('X','fontWeight','bold')
+ylabel('y','fontWeight','bold')
+set(gca,'fontsize',14,'FontName', 'Times New Roman','LineWidth', 1.25,'TickDir','out','TickLength', [0.005 0.005])
+grid on; box on;
 
 
 
